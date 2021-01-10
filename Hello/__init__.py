@@ -7,7 +7,7 @@ from flask_mail import Mail
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'f9bf78b9a18ce6d46a0cd2b0b86df9da'
+app.config['SECRET_KEY'] = <16digitcode>
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db' # this means -> site.db file should get created in our 
 #project directory along side the python module that we are currently in. (in other words, it is relative path).
 # create db instance
